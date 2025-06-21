@@ -1,1 +1,21 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+body{
+    background-color: white;
+    min-height: 100vh;
+    color: black;
+}
+
+
+.cmnTextColor{
+    color: #FF0066;
+}
+
+.cmnActiveBtn{
+    color: #FF0066;
+    background-color: white;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
