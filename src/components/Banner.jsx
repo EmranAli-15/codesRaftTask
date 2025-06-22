@@ -11,8 +11,8 @@ export default function Banner() {
 
 
                         <div className='mt-7 flex items-center gap-x-5'>
-                            <button className="btn rounded-3xl bg-[#FF0066] outline-0 text-white border-0">Get Started</button>
-                            <button className="btn rounded-3xl border-[#FF0066] bg-transparent outline-0 text-white border">Go On</button>
+                            <button className="btn cmnBtn">Get Started</button>
+                            <button className="btn cmnBtn !bg-transparent">Go On</button>
                         </div>
                     </section>
                     <section className='relative'>

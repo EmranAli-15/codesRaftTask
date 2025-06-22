@@ -17,7 +17,7 @@ export default function Navbar() {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-blue-400 relative -left-2 z-1 mt-3 w-[100vw] p-2 shadow">
-                            <li><Link className={`${path == '/' || '/home' ? 'cmnTextColor': ''}`} to="/">Home</Link></li>
+                            <li><Link className={`${path == '/' || '/home' ? 'cmnTextColor' : ''}`} to="/">Home</Link></li>
                             <li><Link to="/">About</Link></li>
                             <li><Link to="/">Services</Link></li>
                             <li><Link to="/">Portfolio</Link></li>
@@ -29,12 +29,37 @@ export default function Navbar() {
 
                 {/* For large device */}
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 text-lg">
-                        <li><Link className={`${path == '/' || path == '/home' ? 'cmnActiveBtn': ''}`} to="/">Home</Link></li>
-                        <li><Link className={`${path == '/about' ? 'cmnActiveBtn': ''}`} to="/about">About</Link></li>
-                        <li><Link className={`${path == '/services' ? 'cmnActiveBtn': ''}`} to="/services">Services</Link></li>
-                        <li><Link className={`${path == '/portfolio' ? 'cmnActiveBtn': ''}`} to="/portfolio">Portfolio</Link></li>
-                        <li><Link className={`${path == '/contact' ? 'cmnActiveBtn': ''}`} to="/contact">Contact</Link></li>
+                    <ul className="menu menu-horizontal px-1 text-lg font-medium">
+                        <li>
+                            <Link
+                                className={`${path == '/' || path == '/home' ? 'cmnTextColor' : ''}`}
+                                to="/">Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                className={`${path == '/about' ? 'cmnTextColor' : ''}`}
+                                to="/about">About
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                className={`${path == '/services' ? 'cmnTextColor' : ''}`}
+                                to="/services">Services
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                className={`${path == '/portfolio' ? 'cmnTextColor' : ''}`}
+                                to="/portfolio">Portfolio
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                className={`${path == '/contact' ? 'cmnTextColor' : ''}`}
+                                to="/contact">Contact
+                            </Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="navbar-end">
