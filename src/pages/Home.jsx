@@ -10,9 +10,13 @@ export default function Home() {
         <div>
             <Banner></Banner>
             <Services></Services>
-            <About></About>
+            <div className="mt-10">
+                <About></About>
+            </div>
             <FAQS></FAQS>
-            <Contact></Contact>
+            <div className="mt-10">
+                <Contact></Contact>
+            </div>
             <Location></Location>
         </div>
     )

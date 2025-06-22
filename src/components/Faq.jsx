@@ -54,11 +54,11 @@ const FAQS = () => {
     const minus = <>
         <FaMinus></FaMinus></>
     return (
-        <div className='mt-20 md:pb-20'>
+        <div className='mt-10'>
             <div>
                 <h1 className='text-3xl font-bold text-center'>Frequently Asked Questions</h1>
             </div>
-            <div className='mx-5 my-7 md:mx-24 xs:mx-3'>
+            <div className='px-3 md:px-0 mt-5'>
                 <div className='collapseContainer' style={{ background: '#fff' }}>
                     <h1
                         className='flex p-4 items-center justify-between cursor-pointer'

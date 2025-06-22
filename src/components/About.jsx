@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className='w-screen -ml-[50vw] left-1/2 relative bg-slate-100'>
 
-      <div className="py-8 mb-16 px-2 md:px-0 max-w-7xl mx-auto md:flex">
+      <div className="py-10 px-3 md:px-0 max-w-7xl mx-auto md:flex">
         <section className="relative hidden md:block md:w-1/2">
           <svg width={350} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <path fill="#FF0066" d="M60.3,-0.9C60.3,29.7,30.2,59.3,-1.2,59.3C-32.5,59.3,-65,29.7,-65,-0.9C-65,-31.5,-32.5,-62.9,-1.2,-62.9C30.2,-62.9,60.3,-31.5,60.3,-0.9Z" transform="translate(100 100)" />

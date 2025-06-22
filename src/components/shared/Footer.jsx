@@ -1,9 +1,9 @@
 
 export default function Footer() {
   return (
-    <div className="w-screen -ml-[50vw] left-1/2 relative bg-slate-100 py-16">
+    <div className="w-screen -ml-[50vw] left-1/2 relative bg-slate-100 mt-10 py-10">
 
-      <div className="max-w-7xl mx-auto px-2 md:px-0">
+      <div className="max-w-7xl mx-auto px-3 md:px-0">
         <div className="md:flex justify-between">
 
           <section className="md:w-1/2">

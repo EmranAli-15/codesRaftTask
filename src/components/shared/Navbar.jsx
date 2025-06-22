@@ -15,7 +15,7 @@ export default function Navbar() {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-blue-400 relative -left-2 z-1 mt-3 w-[100vw] p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-blue-400 relative -left-2 z-1 mt-3 w-[100vw] p-2 shadow-2xl">
                             <li>
                                 <Link
                                     className={`${path == '/' || path == '/home' ? 'cmnTextColor' : ''}`}

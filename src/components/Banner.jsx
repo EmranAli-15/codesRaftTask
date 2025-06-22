@@ -2,8 +2,8 @@ import man from '../assets/man.png'
 
 export default function Banner() {
     return (
-        <div className="w-screen -ml-[50vw] left-1/2 relative bg-blue-400 mb-16 pt-8">
-            <div className="max-w-7xl mx-auto px-2 md:px-0">
+        <div className="w-screen -ml-[50vw] left-1/2 relative bg-blue-400 pt-10">
+            <div className="max-w-7xl mx-auto px-3 md:px-0">
                 <div className="md:flex justify-between">
                     <section className="text-white md:w-1/2">
                         <h1 className="text-3xl md:text-4xl font-bold">Hello, I'm <br /> Emran Ali An <br /> Full Stack Developer</h1>

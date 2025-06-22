@@ -8,7 +8,7 @@ import strategy from "../assets/strategyGIF.gif"
 
 export default function Portfolio() {
   return (
-    <div className="py-8 px-2 md:px-0">
+    <div className="py-10 px-3 md:px-0">
 
       {/* portfolio section */}
       <section>
@@ -39,7 +39,7 @@ export default function Portfolio() {
 
 
       {/* process section */}
-      <section className="w-screen -ml-[50vw] relative left-1/2 bg-slate-100 my-10 py-8">
+      <section className="w-screen -ml-[50vw] relative left-1/2 bg-slate-100 mt-10 py-10">
         <div className="max-w-7xl mx-auto">
           <p className="text-blue-500 font-bold text-center">PROCESS</p>
           <h1 className="text-3xl font-bold text-center">My Working Process</h1>
@@ -91,7 +91,7 @@ export default function Portfolio() {
 
 
       {/* testimonial section */}
-      <section className="mt-10 py-8">
+      <section className="mt-10">
 
         <h1 className="font-bold text-center text-blue-500">TESTIMONIAL</h1>
         <h1 className="text-3xl font-bold text-center">What People Say's About Us</h1>
