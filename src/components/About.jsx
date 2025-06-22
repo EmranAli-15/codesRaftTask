@@ -5,7 +5,7 @@ import "../App.css"
 
 export default function About() {
   return (
-    <div className='w-screen -ml-[50vw] left-1/2 relative bg-blue-100'>
+    <div className='w-screen -ml-[50vw] left-1/2 relative bg-slate-100'>
 
       <div className="py-8 mb-16 px-2 md:px-0 max-w-7xl mx-auto md:flex">
         <section className="relative hidden md:block md:w-1/2">

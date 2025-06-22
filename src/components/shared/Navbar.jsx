@@ -2,7 +2,6 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
     const { pathname: path } = useLocation();
-    console.log(path)
 
     return (
         <div className="w-screen -ml-[50vw] left-1/2 relative bg-blue-400">
@@ -17,11 +16,36 @@ export default function Navbar() {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-blue-400 relative -left-2 z-1 mt-3 w-[100vw] p-2 shadow">
-                            <li><Link className={`${path == '/' || '/home' ? 'cmnTextColor' : ''}`} to="/">Home</Link></li>
-                            <li><Link to="/">About</Link></li>
-                            <li><Link to="/">Services</Link></li>
-                            <li><Link to="/">Portfolio</Link></li>
-                            <li><Link to="/">Contact</Link></li>
+                            <li>
+                                <Link
+                                    className={`${path == '/' || path == '/home' ? 'cmnTextColor' : ''}`}
+                                    to="/">Home
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    className={`${path == '/about' ? 'cmnTextColor' : ''}`}
+                                    to="/about">About
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    className={`${path == '/services' ? 'cmnTextColor' : ''}`}
+                                    to="/services">Services
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    className={`${path == '/portfolio' ? 'cmnTextColor' : ''}`}
+                                    to="/portfolio">Portfolio
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    className={`${path == '/contact' ? 'cmnTextColor' : ''}`}
+                                    to="/contact">Contact
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     <a className="text-2xl font-bold relative -left-2 md:-left-0">CodesRaft</a>

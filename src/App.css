@@ -1,3 +1,43 @@
-.imgTransform{
+.imgTransform {
     transform: scaleX(-1);
+}
+
+
+
+.collapseContainer {
+    position: relative;
+    box-shadow: 2px 2px 4px rgb(180, 174, 174);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.collapseContainer h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.collapseContainer h1:hover {
+    color: #FF0066;
+}
+
+.collapseContainer article p {
+    font-size: 16px;
+    color: gray;
+}
+
+.collapseContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.collapseContent.openCollapse {
+    max-height: 1000px;
+}
+
+.hr-line {
+    height: 1px;
+    background: linear-gradient(to right, transparent, black 50%, transparent);
+    width: 100%;
+    margin: 8px 0 8px 0;
 }
