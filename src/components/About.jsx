@@ -23,16 +23,16 @@ export default function About() {
           <h1 className="text-3xl font-bold">Designing Solutions, Not <br /> Just Visuals</h1>
           <p className="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem amet similique accusamus fugiat libero natus?</p>
 
-          <div className="bg-blue-500 flex items-start gap-x-2 text-white p-2 rounded-md mt-5 mb-2">
-            <IoArrowForwardCircleOutline size={25}></IoArrowForwardCircleOutline>
+          <div className="bg-blue-100 flex items-start gap-x-2 text-gray-500 p-2 rounded-md mt-5 mb-2">
+            <IoArrowForwardCircleOutline color="#FF0066" size={25}></IoArrowForwardCircleOutline>
             <div>
               <p>5K+ Complete Project</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam.</p>
             </div>
           </div>
 
-          <div className="bg-blue-500 flex items-start gap-x-2 text-white p-2 rounded-md">
-            <IoArrowForwardCircleOutline size={25}></IoArrowForwardCircleOutline>
+          <div className="bg-blue-100 flex items-start gap-x-2 text-gray-500 p-2 rounded-md">
+            <IoArrowForwardCircleOutline color="#FF0066" size={25}></IoArrowForwardCircleOutline>
             <div>
               <p>5K+ Complete Project</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam.</p>

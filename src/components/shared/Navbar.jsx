@@ -48,7 +48,7 @@ export default function Navbar() {
                             </li>
                         </ul>
                     </div>
-                    <a className="text-2xl font-bold relative -left-2 md:-left-0">CodesRaft</a>
+                    <Link to="/" className="text-2xl font-bold relative -left-2 md:-left-0">CodesRaft</Link>
                 </div>
 
                 {/* For large device */}
